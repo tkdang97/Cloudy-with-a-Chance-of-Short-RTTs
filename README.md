@@ -49,6 +49,12 @@ figures as well. This dataset is also available at [mediaTUM](https://mediatum.u
 
 # Usage instructions
 
+## Step 0: Install datasets
+
+Write about datasets and links
+
+## Step 1: Install Python and its dependencies
+
 These results were created with Python 3.7.7. In addition, several non-default Python libraries were used. These
 can be installed with the following command:
 
