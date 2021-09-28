@@ -79,3 +79,24 @@ python3 -m pip install --upgrade pip
 After downloading the necessary datasets and installing these libraries, the code in the notebook can be run after
 setting the correct paths for both of the datasets. The resulting figures will then be placed in the `Figs/` folder 
 and will be named after the figure identifier used in the paper.
+
+## Step 2: Start Jupyter Lab
+
+Before you start Jupyter Lab, make sure that your Python virtualenv (if you are using one), is activated:
+
+```shell
+source MY-VENV-LOCATION/bin/activate
+```
+
+Then simply start the Jupyter Lab server in the current directory:
+
+```shell
+jupyter-lab
+```
+
+This should open a browser if run on a GUI system or display information about the used port and configuration when run on a headless server, which can be used when establishing an SSH tunnel.
+
+
+## Step 3: Run analysis in Jupyter Lab
+
+You can now run the reproduction step by step in the Jupyter Lab's browser window by running `Figures.ipynb`.
