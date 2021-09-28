@@ -55,8 +55,21 @@ Write about datasets and links
 
 ## Step 1: Install Python and its dependencies
 
-These results were created with Python 3.7.7. In addition, several non-default Python libraries were used. These
-can be installed with the following command:
+In order to run the analysis you need to set up a working Jupyter Lab environment with Pythonv3. In addition, several non-default Python libraries were used. 
+
+If you want to use a Python virtualenv, you can create one with:
+
+```shell
+python3 -m venv MY-VENV-LOCATION
+```
+
+Then you can activate the virtualenv with:
+
+```shell
+source MY-VENV-LOCATION/bin/activate
+```
+
+These can be installed with the following command:
 
 ```
 pip install -r requirements.txt
@@ -73,7 +86,7 @@ pip install <path/to/wheel/file>
 It might also be necessary to update pip in order to install all of the libraries. This can be done with:
 
 ```
-python3 -m pip install --upgrade pip
+pip install --upgrade pip
 ```
 
 After downloading the necessary datasets and installing these libraries, the code in the notebook can be run after
