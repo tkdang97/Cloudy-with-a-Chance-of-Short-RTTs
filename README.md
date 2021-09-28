@@ -54,8 +54,8 @@ figures as well. This dataset is also available at [mediaTUM](https://mediatum.u
 Most likely you have already completed this step. 
 The reproduction is dependent on two databases. 
 
-1. Speedchecker platform dataset: You can download it from here (link). Rename it to XXXX after uncompressing.
-2. RIPE Atlas platform dataset: You can download it from here (link). Rename it to XXXX after uncompressing.
+1. Speedchecker platform dataset: You can download it from here (link).
+2. RIPE Atlas platform dataset: You can download it from here (link).
 
 ## Step 1: Install Python and its dependencies
 
