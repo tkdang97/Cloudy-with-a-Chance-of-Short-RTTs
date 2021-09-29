@@ -25,7 +25,7 @@ the present data in the case of `peeringdb.json` (obtained from [PeeringDB](http
 Throughout our measurements we used over 115,000 Speedchecker probes. This is their distribution across different
 countries.
 
-![Vantage point choropleth map](figures/probes_choropleth.png)
+![Vantage point choropleth map](Figs/probes_choropleth.png)
 
 ---
 
