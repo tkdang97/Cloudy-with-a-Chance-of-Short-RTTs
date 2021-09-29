@@ -10,20 +10,29 @@ Aleksandr Zavodovski<sup>2</sup>, Jörg Ott<sup>1</sup>, Jussi Kangasharju<sup>3
 This repository contains the code to reproduce the results and figures of our publication *Cloudy with a Chance of 
 Short RTTs: Analyzing Cloud Connectivity in the Internet* accepted for **ACM IMC 2021**.
 
-To better structure this, all of the code is included in the `Figures.ipynb` file in form of a Jupyter notebook.
+To better structure this, all of the code is included in the `speedchecker-analysis.ipynb` file in form of a Jupyter notebook.
 We split all of the figures into different cells with headers which provide information about the number of the
 figure in the paper as well as a short description of the content.
 
 Also included are two .json-files which are used to convert country codes in the case of `iso3.json` 
 (obtained from [here](http://country.io/iso3.json) and to look up additional information and enrich
- the present data in the case of `peeringdb.json` (obtained from [PeeringDB](https://peeringdb.com/api/net)).
+the present data in the case of `peeringdb.json` (obtained from [PeeringDB](https://peeringdb.com/api/net)).
+
+---
+
+# Vantage point distribution
+
+Throughout our measurements we used over 115,000 Speedchecker probes. This is their distribution across different
+countries.
+
+![Vantage point choropleth map](figures/probes_choropleth.png)
 
 ---
 
 # Dataset
 
 The data necessary for the plots needs to be downloaded before starting and
-is available at [mediaTUM]() with instructions on how to set it up. 
+is available at [mediaTUM](https://mediatum.ub.tum.de/1624200) with instructions on how to set it up. 
 We encourage to cite this dataset in academic publications upon usage.
 
 ```
@@ -54,8 +63,8 @@ figures as well. This dataset is also available at [mediaTUM](https://mediatum.u
 Most likely you have already completed this step. 
 The reproduction is dependent on two databases. 
 
-1. Speedchecker platform dataset: You can download it from here (link).
-2. RIPE Atlas platform dataset: You can download it from here (link).
+1. Speedchecker platform dataset: You can download it from [here](https://mediatum.ub.tum.de/1624200).
+2. RIPE Atlas platform dataset: You can download it from [here](https://mediatum.ub.tum.de/1593899).
 
 ## Step 1: Install Python and its dependencies
 
@@ -73,7 +82,7 @@ Then you can activate the virtualenv with:
 source MY-VENV-LOCATION/bin/activate
 ```
 
-These can be installed with the following command:
+The libraries can then be installed with the following command:
 
 ```
 pip install -r requirements.txt
@@ -92,10 +101,6 @@ It might also be necessary to update pip in order to install all of the librarie
 ```
 pip install --upgrade pip
 ```
-
-After downloading the necessary datasets and installing these libraries, the code in the notebook can be run after
-setting the correct paths for both of the datasets. The resulting figures will then be placed in the `Figs/` folder 
-and will be named after the figure identifier used in the paper.
 
 ## Step 2: Start Jupyter Lab
 
@@ -116,4 +121,5 @@ This should open a browser if run on a GUI system or display information about t
 
 ## Step 3: Run analysis in Jupyter Lab
 
-You can now run the reproduction step by step in the Jupyter Lab's browser window by running `Figures.ipynb`.
+You can now run the reproduction step by step in the Jupyter Lab's browser window by running `speedchecker-analysis.ipynb`.
+The resulting figures will then be placed in the `Figs/` folder and will be named after the figure identifier used in the paper.
