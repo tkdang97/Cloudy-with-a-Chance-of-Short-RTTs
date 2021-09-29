@@ -20,12 +20,19 @@ the present data in the case of `peeringdb.json` (obtained from [PeeringDB](http
 
 ---
 
-# Vantage point distribution
+# Vantage points
 
 Throughout our measurements we used over 115,000 Speedchecker probes. This is their distribution across different
 countries.
 
 ![Vantage point choropleth map](Figs/probes_choropleth.png)
+
+---
+
+# Cloud datacenters
+
+We targeted virtual machines hosted in 195 datacenters in many different countries throughout the world.
+![Datacenter choropleth map](Figs/dc_choropleth.png)
 
 ---
 
