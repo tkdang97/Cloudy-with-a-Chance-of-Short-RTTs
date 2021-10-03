@@ -8,7 +8,7 @@ Aleksandr Zavodovski<sup>2</sup>, Jörg Ott<sup>1</sup>, Jussi Kangasharju<sup>3
 ---
 
 This repository contains the code to reproduce the results and figures of our publication *Cloudy with a Chance of 
-Short RTTs: Analyzing Cloud Connectivity in the Internet* accepted for **ACM IMC 2021**.
+Short RTTs: Analyzing Cloud Connectivity in the Internet* accepted for [**ACM Internet Measurement Conference (IMC) 2021**](https://conferences.sigcomm.org/imc/2021/).
 
 To better structure this, all of the code is included in the `speedchecker-analysis.ipynb` file in form of a Jupyter notebook.
 We split all of the figures into different cells with headers which provide information about the number of the
