@@ -40,21 +40,19 @@ We targeted virtual machines hosted in 195 datacenters in many different countri
 
 The data necessary for the plots needs to be downloaded before starting and
 is available at [mediaTUM](https://mediatum.ub.tum.de/1624200) with instructions on how to set it up. 
-We encourage to cite this dataset in academic publications upon usage.
+We encourage to cite our IMC 2021 paper in your academic publications upon usage.
 
 ```
-@misc{dataset, 
-	author = {Mohan, Nitinder and Dang, The Khang and Corneo, Lorenzo and Zavodovski, Aleksandr and Ott, Jörg and Kangasharju, Jussi},
-	title = {Cloudy with a Chance of Short RTTs: Analyzing Cloud Connectivity in the Internet},
-	publisher = {Technical University of Munich},
-	url = {https://mediatum.ub.tum.de/1624200},
-	type = {Dataset},
+@inproceedings{cloudyIMC2021,
+	author= {Dang, The Khang and Mohan, Nitinder and Corneo, Lorenzo and Zavodovski, Aleksandr and Ott, Jörg and Kangasharju, Jussi},
+	title={{Cloudy with a Chance of Short RTTs: Analyzing Cloud Connectivity in the Internet}},
+	booktitle = {Proceedings of Internet Measurement Conference},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3487552.3487854},
+	doi = {10.1145/3487552.3487854},
 	year={2021},
-	doi = {10.14459/2021mp1624200},
-	keywords = {Cloud, Edge computing; Speedchecker; Cloud connectivity; Cloud Reachability; Internet measurements},
-	abstract = {Cloud datacenter to user connectivity dataset collected over Speedchecker platform. The dataset accompanies research article 
-		   “Cloudy with a Chance of Short RTTs: Analyzing Cloud Connectivity in the Internet” accepted at ACM Internet Measurements Conference (IMC) 2021},
-	language = {en},
+	series = {IMC '21}
 }
 ```
 
